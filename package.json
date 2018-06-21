@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-short-urls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js -e js,pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.htc-cs.com:olegm/nodejs-short-urls.git"
+  },
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "author": "Oleg M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.htc-cs.com/olegm/nodejs-short-urls/issues"
+  },
+  "homepage": "https://gitlab.htc-cs.com/olegm/nodejs-short-urls#README",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "sqlite3": "^4.0.0"
+  }
+}
