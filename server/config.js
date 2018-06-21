@@ -1,6 +1,6 @@
 const config = {
   server: {
-    hostname: 'pc507',
+    hostname: 'localhost',
     port: 3005
   },
   db: {
